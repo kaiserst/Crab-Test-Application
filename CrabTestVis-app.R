@@ -119,7 +119,13 @@ server <- function(input, output) {
     tmap_mode("view")
     tm_layout(title = "Test Pot Locations") +
       tm_shape(CPUE_sf) +
-      tm_bubbles(size = 0.1, col = 'LSM')
+      tm_bubbles(size = 0.3, col = 'LSM', id = "Pot",
+                 popup.vars = c(
+                   'Total' = 'total',
+                   'Hard LSM' = 'HLSM',
+                   'Percent Hard' = 'PCT_HLSM'
+                 )) + 
+      tm_text("HLSM", size = 0.85, col = "darkred", fontface = "bold", just = "left", xmod = 0.5, ymod = 0.5)
   })
   
   # Call table output
