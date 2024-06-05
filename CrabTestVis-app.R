@@ -112,8 +112,7 @@ server <- function(input, output, session) {
           modalButton("Accept")
         ),
         tags$div(
-          p("Welcome to the Tulalip Tribes Shellfish Program's Dungeness crab test fishery data 
-            visualization application. The data visualizations provided by this application are intended to assist in the rapid analysis of Dungeness 
+          p("Welcome to this Dungeness crab test fishery data visualization application. The data visualizations provided by this application are intended to assist in the rapid analysis of Dungeness 
              crab test fishery data for use in management discussions. The application is designed to be used with data 
              formatted according to the guidelines provided in the Formatting Instructions tab."),
           p("Please ensure that the uploaded .xlsx files meet the specified formatting requirements. The accuracy of the 
