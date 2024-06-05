@@ -86,7 +86,7 @@ ui <- page_sidebar(
               p("In this version of the application files must be in .xlsx format. The columns included in 
               the uploaded datasheet must be labeled exactly as shown above (case and space sensative). Additional 
               columns will not inhibit the applications processes, however they will not be available for 
-              visualization due to built in filtering. For any questions or techincal assistance contact the app developer Sam Kaiser (skaiser@tulaliptribes-nsn.gov)."
+              visualization due to built in filtering. For any questions or assistance contact the app developer Sam Kaiser (skaiser@tulaliptribes-nsn.gov)."
               ),
     )
   )
